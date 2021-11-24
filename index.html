@@ -4,20 +4,22 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Portfolio Web Site</title>
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 	<header>
 		<div class="logo">
-			<img src="" alt="Logo">
+			<img src="fondo-globo-programacion.jpg"style="width:20%;height:2%;" alt="Logo">
 		</div>
 		<button class="nav_toggle" aria-label="toggle navigation">
-			<span class="hamburger"></span>
+			<span class="hamburger">Boton</span>
 		</button>
 		<nav class="nav">
 			<ul class="nav__list">
 				<i class="nav__item"><a href="#house" class="nav__link">Home</a></i>
-				<i class="nav__item"><a href="" class="nav__link">My Services</a></i>
-				<i class="nav__item"><a href="" class="nav__link">About Me</a></i>
+				<i class="nav__item"><a href="#services" class="nav__link">My Services</a></i>
+				<i class="nav__item"><a href="#about" class="nav__link">About Me</a></i>
 				<i class="nav__item"><a href="" class="nav__link">My Work</a></i>
 
 			</ul>
@@ -25,32 +27,117 @@
 	</header>
 	<!-- Instructions-->
 		<section class="intro" id="home">
-			<h1 class="secction__title secction__title-intro">
-				HI, I'M <strong>Erick Cruz</strong> 
+			<h1 class="section__title section__title-intro">
+				HI, I'M <strong>Erick Javier Cruz</strong> 
 			</h1>
-			<p class="secction__subtitle secction__subtitle-intro">FrontEnd Dev</p>
+			<p 
+			class="section__subtitle section__subtitle-intro">
+				Front-End Dev
+				
+			</p>
+			<img src="img/erick.jpg" class="intro__image">
 		</section>
 
 	<!--My Services-->
 	<section class="my__services" id="services">
-		<h2 class="secction__title secction__title-services">What I do</h2>
+		<h2 class="section__title section__title-services">What I do</h2>
 		<div class="services">
 			<div class="service">
-				<h3></h3>
-				<p></p>
+				<h3>Design and Development</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 			</div><!--/Service-->
 			<div class="service">
-				<h3></h3>
-				<p></p>
+				<h3>E-Commerce</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 			</div><!--/Service-->
 			<div class="service">
-				<h3></h3>
-				<p></p>
+				<h3>WordPress</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 			</div><!--/Service-->
 
-			<a href="#work" class="btn">My work</a>
+			
 		</div>
+		<a href="work" class="btn">My work</a>
 	</section>
 	<!--About Me-->
+	<section class="about__me" id="about">
+			<h2 class="section__title section__title-about">Who I am</h2>
+			<p class="section__subtitle section__subtitle-about">Designer & Developer based out of MVC</p>
+
+			<div class="about__me-body">
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat.
+				</p>
+				<p>
+					Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</p>
+			</div>
+			<img src="img/erick.jpg" alt="Image" class="about__me-img">
+		
+	</section>
+
+	<!--My Word--->
+	<section class="my__work" id="work">
+		<h2 class="section__title">My Work</h2>
+		<p class="section__subtitle"></p>
+
+		<div class="portfolio">
+			<a href="a" class="portfolio__item">
+				<img src="img/cpp.jpg" alt="portfolio" class="portfolio__image">
+			</a>
+			<a href="a" class="portfolio__item">
+				<img src="img/csharp.jpg" alt="portfolio" class="portfolio__image">
+			</a>
+			<a href="a" class="portfolio__item">
+				<img src="img/java.jpg" alt="portfolio" class="portfolio__image">
+			</a>
+			<a href="a" class="portfolio__item">
+				<img src="img/lenguaje c code.png" alt="portfolio" class="portfolio__image">
+			</a>
+			<a href="a" class="portfolio__item">
+				<img src="img/python.jpg" alt="portfolio" class="portfolio__image">
+			</a>
+			<a href="a" class="portfolio__item">
+				<img src="img/javascript.jpg" alt="portfolio" class="portfolio__image">
+			</a>
+		</div>
+	</section>
+	<!--Footer-->
+	<footer>
+		<a href="https://www.google.com" class="footer__link">ejcruz.com</a>
+		<ul class="socila__list">
+			<li class="social__list-item">
+				<a href="https://www.facebook.com/skollbig/" 
+				class="social__list-link"><i class="fab fa-facebook"></i>Facebook</a>
+			</li>
+			<li class="social__list-item">
+				<a href="https://twitter.com/erickjaviercruz" 
+				class="social__list-link"><i class="fab fa-twitter"></i>Twitter</a>
+			</li><i class=""></i>
+			<li class="social__list-item">
+				<a href="https://www.instagram.com/cruzerickjavier/?hl=es" class="social__list-link" target="_blank"><i class="fab fa-instagram"></i>Instagram</a>
+			</li>
+		</ul>
+	</footer>
 </body>
 </html>
