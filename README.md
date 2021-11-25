@@ -6,7 +6,7 @@ ___
 
 *Design completed*
 * [x] layout html
-* []  section menu header
+* [ ]  section menu header
 * [x] section intro
 * [x] section home
 * [x] section about
